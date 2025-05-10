@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Day Event</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Welcome to Sports Day Celebration 2025</h1>
+        <button onclick="scrollToSection('registration')">Register Now</button>
+    </header>
+
+    <!-- Event Details Section -->
+    <section id="event-details">
+        <h2>Event Details</h2>
+        <p><strong>Date:</strong> March 25, 2025</p>
+        <p><strong>Location:</strong> KRCE ground</p>
+        <p><strong>Contact:</strong> sports@xyz.com</p>
+    </section>
+
+    <!-- Registration Section -->
+    <section id="registration">
+        <h2>Register for the Event</h2>
+        <form id="registrationForm">
+            <input type="text" id="name" placeholder="Full Name" required>
+            <input type="email" id="email" placeholder="Email" required>
+            <select id="sport" required>
+                <option value="">Select Sport</option>
+                <option>Football</option>
+                <option>Basketball</option>
+                <option>Running</option>
+                <option>shuttle</option>
+            </select>
+            <button type="submit">Register</button>
+        </form>
+    </section>
+
+    <!-- Schedule Section -->
+    <section id="schedule">
+        <h2>Event Schedule</h2>
+        <ul>
+            <li>10:00 AM - Opening Ceremony</li>
+            <li>11:00 AM - 100m Sprint</li>
+            <li>1:00 PM - Football Match</li>
+            <li>3:00 PM - Basketball Finals</li>
+        </ul>
+    </section>
+
+    <!-- Live Scoreboard -->
+    <section id="scoreboard">
+        <h2>Live Scoreboard</h2>
+        <p>Scores will be updated live during the event.</p>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>2025 Sports Day</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
