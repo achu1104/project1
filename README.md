@@ -44,7 +44,7 @@ sports-day-event/
 │── README.md       # Project documentation
 
 📸 Screenshot
-Add a screenshot of your webpage here once deployed.
+sports.png
 
 
 📡 Deployment
